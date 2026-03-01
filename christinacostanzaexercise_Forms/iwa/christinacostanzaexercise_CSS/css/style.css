@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+#wrapper {
+  border: 3px solid rgb(6, 197, 98);
+  width: 90%;
+  margin: auto;
+  padding: 1.3rem;
+}
+img {
+  margin: auto;
+  display: block;
+}
+body {
+  background-color: rgb(186, 231, 232);
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  text-indent: 3%;
+  line-height: 1.5;
+}
+/* Changed header and OL */
+header {
+  display: flex;
+  flex-direction: row;
+  gap: calc(5rem);
+  padding: 1rem;
+}
+H1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 20%;
+  padding-right: 5%;
+  border: 0.5rem ridge #25ff9699;
+  margin: auto;
+  background-color: rgb(3, 97, 148);
+  color: rgb(255, 255, 255);
+}
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.75rem;
+  font-style: oblique;
+  text-indent: 5%;
+  width: 75%;
+  line-height: 80%;
+  text-shadow: 6px 7px 6px black;
+  box-shadow: 12px 12px 4px rgb(55, 1, 1);
+  padding: 1.3%;
+  margin-bottom: 1%;
+  border: 4px solid rgb(203, 16, 16);
+  border-radius: 30% 30% / 120% 90%;
+  background-color: rgb(3, 97, 148);
+  color: rgb(235, 234, 234);
+}
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.4rem;
+  font-style: oblique;
+  text-indent: 3%;
+  width: 26%;
+  line-height: 80%;
+  text-shadow: 4px 5px 4px rgb(22, 21, 21);
+  padding: 0.75%;
+  margin: 0%;
+  background-color: rgb(3, 97, 148);
+  color: rgb(222, 221, 221);
+}
+a {
+  text-decoration: none;
+  color: rgb(7, 60, 204);
+}
+A:hover {
+  color: rgb(155, 94, 13);
+}
+ol {
+  list-style: none;
+}
+
+/* Other change is here */
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+  flex: 1;
+  gap: calc(2rem);
+}
